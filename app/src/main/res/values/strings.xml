@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyWidget&amp;LayoutExercise</string>
+    <string name="main_end">NextPage</string>
+    <string name="progressbar_progress">%0</string>
 </resources>
