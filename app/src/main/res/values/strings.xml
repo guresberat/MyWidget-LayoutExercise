@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">MyWidget&amp;LayoutExercise</string>
-    <string name="main_end">NextPage</string>
+    <string name="main_end">Next Page</string>
     <string name="progressbar_progress">%0</string>
+
+    <string-array name="spinner_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
 </resources>
