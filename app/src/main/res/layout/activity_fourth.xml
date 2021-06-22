@@ -9,9 +9,17 @@
     android:padding="20dp"
     tools:context=".FourthPage">
 
-    <TextView
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="5"/>
+    <Button
+        android:id="@+id/fourth_page_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World"/>
+        android:layout_weight="1"
+        android:text="@string/main_end"
+        android:layout_gravity="center"/>
 
 </LinearLayout>
