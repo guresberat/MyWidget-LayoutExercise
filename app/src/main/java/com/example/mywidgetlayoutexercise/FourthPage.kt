@@ -28,20 +28,10 @@ class FourthPage : AppCompatActivity() {
         web.webViewClient = WebViewClient()
         web.settings.javaScriptEnabled = true
         web.loadUrl("https://www.google.com")
-/*
-        web.webViewClient = object : WebViewClient() {
-            override fun shouldOverrideUrlLoading(
-                view: WebView?,
-                request: WebResourceRequest?
-            ): Boolean {
-                val url = request?.url.toString()
-                view?.loadUrl(url)
-                return super.shouldOverrideUrlLoading(view, request)
-            }
-        }
-*/
+
+
         button.setOnClickListener {
-            val intent = Intent(this, ThirdPage::class.java)
+            val intent = Intent(this, FifthPage::class.java)
             startActivity(intent)
             finish()
         }
